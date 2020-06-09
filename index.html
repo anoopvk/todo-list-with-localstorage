@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, user-scalable=no">
+    <title>ToDo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b0a123f416.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <h1 class="heading">To-do</h1>
+    <div class="container">
+        <div class="inputboxcontainer">
+            <input id="inputb" class="inputb" type="text" placeholder=" Enter todo " />
+        </div>
+        <div id="incomp" class="incomp subcontainer">
+            <h2>Pending
+                <span class="badge" id="pendingcount"></span>
+            </h2>
+            <div class="empty" id="emptyincomp">
+                empty
+            </div>
+
+        </div>
+        <div id="comp" class="comp subcontainer">
+            <h2>Completed
+                <span class="badge" id="completedcount"></span>
+            </h2>
+            <div class="empty" id="emptycomp">
+                empty
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

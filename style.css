@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  margin: 0;
+  background-color: rgb(1, 22, 39);
+  color: rgb(253, 255, 252);
+  font-family: "Montserrat", sans-serif;
+}
+.heading {
+  /* font-family: "Montserrat", sans-serif; */
+  font-size: 100px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  position: fixed;
+  /* color: rgba(255, 160, 28, 0.719); */
+  color: rgb(1, 22, 39);
+  text-shadow: 0 0 100px rgb(255, 160, 28);
+  z-index: -1;
+  /* top: 0; */
+  /* margin: 50px; */
+  bottom: 0;
+  left: 0;
+  /* transform-origin: 50px 50px; */
+  /* transform: rotate(90deg); */
+  transform-origin: 50px 50px;
+  transform: rotate(-90deg) translate(-50px, -10px);
+  /* transform: rotate(-90deg) translate(-300px, -50px); */
+  white-space: nowrap;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  /* position: relative; */
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        margin-left: 50px;
+        margin-right: 50px;
+        min-width: 200px;
+    }
+}
+.inputb {
+  width: 100%;
+  line-height: 2;
+  border: none;
+  /* border: 0.5px solid black; */
+  background-color: rgba(255, 255, 255, 0.842);
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 15px;
+  transition: all ease-in-out 0.2s;
+  box-sizing : border-box;
+
+}
+.inputb::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bolder;
+}
+.inputb::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bolder;
+}
+.inputb:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bolder;
+}
+.inputb:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bolder;
+}
+
+.inputb:focus::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: transparent;
+}
+.inputb:focus::-moz-placeholder {
+  /* Firefox 19+ */
+  color: transparent;
+}
+.inputb:focus:-ms-input-placeholder {
+  /* IE 10+ */
+  color: transparent;
+}
+.inputb:focus:-moz-placeholder {
+  /* Firefox 18- */
+  color: transparent;
+}
+
+.inputb:focus {
+  border: none;
+  /* border-bottom:1px solid black; */
+  outline: none;
+  box-shadow: 0px 0px 20px white;
+  background-color: rgb(253, 255, 252);
+}
+
+.item {
+  /* background-color: rgb(79, 173, 255); */
+  width: 100%;
+  background-color: rgb(46, 196, 182);
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bolder;
+  box-sizing : border-box;
+  overflow-wrap: break-word;
+
+}
+
+.fas, .svg-inline--fa {
+  float: right;
+  margin: 0 10px;
+}
+
+.fa-trash {
+  color: rgba(231, 29, 53, 0.801);
+}
+.empty{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  text-align: center;
+}
+.badge{
+  font-size: small;
+  background-color: turquoise;
+  padding: 3px;
+  border-radius: 15px;
+}
+
+.comp .item{
+  color: rgb(255, 255, 255,0.5);
+  background-color: rgba(46, 196, 181, 0.5);
+}
