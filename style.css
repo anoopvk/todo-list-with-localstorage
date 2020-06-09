@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  /* height: 100vh; */
   background-color: rgb(1, 22, 39);
   color: rgb(253, 255, 252);
   font-family: "Montserrat", sans-serif;
@@ -14,7 +15,7 @@ body {
   position: fixed;
   /* color: rgba(255, 160, 28, 0.719); */
   color: rgb(1, 22, 39);
-  text-shadow: 0 0 100px rgb(255, 160, 28);
+  text-shadow: 0 0 75px rgb(255, 160, 28);
   z-index: -1;
   /* top: 0; */
   /* margin: 50px; */
